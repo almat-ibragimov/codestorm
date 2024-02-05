@@ -1,0 +1,2342 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 15vh;
+    line-height: 15vh;
+    background-color: #FFFFFF;
+}
+
+.main-header {
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'Lexend Deca', sans-serif;
+    padding-left: 5%;
+    color: #9E00FF;
+}
+
+.main-content {
+    display: flex;
+    width: 100%;
+    height: 90vh;
+}
+
+.main-content-one {
+    width: 50%;
+    height: 90vh;
+    background-color: #FBF5FF;
+}
+
+.header-frontend {
+    font-size: 64px;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.main-content-text {
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.button {
+    width: 40%;
+    height: 12vh;
+    line-height: 12vh;
+    background-color: #9E00FF;
+    border-radius: 15px;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.button:hover {
+    background-color: #8306CF;
+    border-radius: 15px;
+}
+
+.button-text {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.main-content-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 90vh;
+    background-color: #FBF5FF;
+}
+
+.frontend-logo {
+    width: 50%;
+}
+
+.education {
+    display: block;
+    width: 100%;
+    height: 150vh;
+    background-color: #FFFFFF;
+}
+
+.header-education {
+    font-size: 64px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.education-blocks {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFFFF;
+    margin-bottom: 5%;
+}
+
+.education-one {
+    width: 27%;
+    height: 100vh;
+    background-color: #9E00FF;
+    border-radius: 25px;
+    margin-left: 5%;
+}
+
+.first-education {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    background-color: #9E00FF;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.html-logo {
+    width: 40%;
+}
+
+.second-education {
+    width: 100%;
+    height: 60vh;
+    background-color: #8306CF;
+    border-radius: 0px 0px 25px 25px;
+}
+
+.second-education-header {
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.second-education-text {
+    font-size: 18px;
+    font-weight: 200;
+    color: #FFFFFF;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.education-two {
+    width: 27%;
+    height: 100vh;
+    background-color: #9E00FF;
+    border-radius: 25px;
+    margin-left: 4%;
+}
+
+.third-education {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    background-color: #9E00FF;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.css-logo {
+    width: 45%;
+}
+
+.fourth-education {
+    width: 100%;
+    height: 60vh;
+    background-color: #8306CF;
+    border-radius: 0px 0px 25px 25px;
+}
+
+.fourth-education-header {
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.fourth-education-text {
+    font-size: 18px;
+    font-weight: 200;
+    color: #FFFFFF;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.education-three {
+    width: 27%;
+    height: 100vh;
+    background-color: #9E00FF;
+    border-radius: 25px;
+    margin-left: 4%;
+    margin-right: 5%;
+}
+
+.fifth-education {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    background-color: #9E00FF;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.js-logo {
+    width: 35%;
+}
+
+.sixth-education {
+    width: 100%;
+    height: 60vh;
+    background-color: #8306CF;
+    border-radius: 0px 0px 25px 25px;
+}
+
+.sixth-education-header {
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.sixth-education-text {
+    font-size: 18px;
+    font-weight: 200;
+    color: #FFFFFF;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.good-choice {
+    width: 100%;
+    height: 280vh;
+    background-color: #FBF5FF;
+}
+
+.header-good-choice {
+    font-size: 64px;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.header-good-choice-one {
+    font-size: 48px;
+    color: #9E00FF;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.good-choice-text-one {
+    font-size: 24px;
+    font-weight: 300;
+    padding-top: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.header-good-choice-two {
+    font-size: 48px;
+    color: #9E00FF;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.good-choice-text-two {
+    font-size: 24px;
+    font-weight: 300;
+    padding-top: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.header-good-choice-three {
+    font-size: 48px;
+    color: #9E00FF;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.good-choice-text-three {
+    font-size: 24px;
+    font-weight: 300;
+    padding-top: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.header-good-choice-four {
+    font-size: 48px;
+    color: #9E00FF;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.good-choice-text-four {
+    font-size: 24px;
+    font-weight: 300;
+    padding-top: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.header-good-choice-five {
+    font-size: 48px;
+    color: #9E00FF;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.good-choice-text-five {
+    font-size: 24px;
+    font-weight: 300;
+    padding-top: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    background-color: #242424;
+}
+
+.footer-one {
+    width: 50%;
+    height: 50vh;
+    background-color: #242424;
+}
+
+.main-footer {
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #FFFFFF;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.gray-number {
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #242424;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+.footer-apps {
+    display: flex;
+    width: 30%;
+    height: 5vh;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.instagram-logo {
+    height: 5vh;
+}
+
+.whatsapp-logo {
+    height: 5vh;
+    padding-left: 5%;
+}
+
+.href-whatsapp {
+    padding-left: 5%;
+}
+
+.telegram-logo {
+    height: 5vh;
+    padding-left: 5%;
+}
+
+.href-telegram {
+    padding-left: 5%;
+}
+
+.footer-two {
+    display: flex;
+    justify-content: end;
+    width: 50%;
+    height: 50vh;
+    background-color: #242424;
+}
+
+.main-number {
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #FFFFFF;
+    padding-top: 10%;
+    padding-right: 10%;
+}
+
+@media screen and (max-width: 1300px) {
+    .header-frontend {
+        font-size: 48px;
+    }
+
+    .education {
+        height: 140vh;
+    }
+
+    .header-education {
+        font-size: 48px;
+    }
+
+    .second-education-text {
+        font-size: 16px;
+    }
+
+    .fourth-education-text {
+        font-size: 16px;
+    }
+
+    .sixth-education-text {
+        font-size: 16px;
+    }
+
+    .header-good-choice {
+        font-size: 48px;
+    }
+
+    .header-good-choice-one {
+        font-size: 36px;
+    }
+
+    .good-choice-text-one {
+        font-size: 22px;
+    }
+
+    .header-good-choice-two {
+        font-size: 36px;
+    }
+
+    .good-choice {
+        height: 210vh;
+    }
+
+    .good-choice-text-two {
+        font-size: 22px;
+    }
+
+    .header-good-choice-three {
+        font-size: 36px;
+    }
+
+    .good-choice-text-three {
+        font-size: 22px;
+    }
+
+    .header-good-choice-four {
+        font-size: 36px;
+    }
+
+    .good-choice-text-four {
+        font-size: 22px;
+    }
+
+    .header-good-choice-five {
+        font-size: 36px;
+    }
+
+    .good-choice-text-five {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .main-content-text {
+        font-size: 18px;
+    }
+
+    .button-text {
+        font-size: 18px;
+    }
+
+    .good-choice {
+        height: 245vh;
+    }
+
+    .good-choice-text-two {
+        font-size: 20px;
+    }
+
+    .header-good-choice-three {
+        font-size: 36px;
+    }
+
+    .good-choice-text-three {
+        font-size: 20px;
+    }
+
+    .header-good-choice-four {
+        font-size: 36px;
+    }
+
+    .good-choice-text-four {
+        font-size: 20px;
+    }
+
+    .header-good-choice-five {
+        font-size: 36px;
+    }
+
+    .good-choice-text-five {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .education {
+        height: 125vh;
+    }
+
+    .education-one {
+        height: 85vh;
+    }
+
+    .first-education {
+        height: 32vh;
+    }
+
+    .second-education {
+        height: 53vh;
+    }
+
+    .education-two {
+        height: 85vh;
+    }
+
+    .third-education {
+        height: 32vh;
+    }
+
+    .fourth-education {
+        height: 53vh;
+    }
+
+    .education-three {
+        height: 85vh;
+    }
+
+    .fifth-education {
+        height: 32vh;
+    }
+
+    .sixth-education {
+        height: 53vh;
+    }
+
+    .second-education-header {
+        font-size: 32px;
+    }
+
+    .fourth-education-header {
+        font-size: 32px;
+    }
+
+    .sixth-education-header {
+        font-size: 32px;
+    }
+
+    .second-education-text {
+        font-size: 14px;
+    }
+
+    .fourth-education-text {
+        font-size: 14px;
+    }
+
+    .sixth-education-text {
+        font-size: 14px;
+    }
+
+    .good-choice {
+        height: 225vh;
+    }
+
+    .good-choice-text-one {
+        font-size: 18px;
+    }
+
+    .good-choice-text-two {
+        font-size: 18px;
+    }
+
+    .good-choice-text-three {
+        font-size: 18px;
+    }
+
+    .good-choice-text-four {
+        font-size: 18px;
+    }
+
+    .good-choice-text-five {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 970px){
+    .header-frontend {
+        font-size: 42px;
+    }
+
+    .main-content {
+        height: 80vh;
+    }
+
+    .main-content-one {
+        height: 80vh;
+    }
+
+    .main-content-text {
+        font-size: 16px;
+    }
+
+    .button {
+        width: 35%;
+        height: 10vh;
+        line-height: 10vh;
+        border-radius: 15px;
+    }
+
+    .button-text {
+        font-size: 16px;
+    }
+
+    .main-content-two {
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 930px){
+    .header {
+        height: 10vh;
+        line-height: 10vh;
+    }
+
+    .main-content {
+        height: 35vh;
+    }
+
+    .main-content-one {
+        height: 35vh;
+    }
+
+    .main-content-two {
+        height: 35vh;
+    }
+
+    .header-education {
+        font-size: 42px;
+    }
+
+    .button {
+        height: 5vh;
+        line-height: 5vh;
+    }
+
+    .education {
+        height: 60vh;
+    }
+
+    .education-one {
+        height: 40vh;
+    }
+
+    .first-education {
+        height: 16vh;
+    }
+
+    .second-education {
+        height: 24vh;
+    }
+
+    .education-two {
+        height: 40vh;
+    }
+
+    .third-education {
+        height: 16vh;
+    }
+
+    .fourth-education {
+        height: 24vh;
+    }
+
+    .education-three {
+        height: 40vh;
+    }
+
+    .fifth-education {
+        height: 16vh;
+    }
+
+    .sixth-education {
+        height: 24vh;
+    }
+
+    .second-education-header {
+        font-size: 24px;
+    }
+
+    .fourth-education-header {
+        font-size: 24px;
+    }
+
+    .sixth-education-header {
+        font-size: 24px;
+    }
+
+    .header-good-choice {
+        font-size: 42px;
+    }
+
+    .second-education-text {
+        font-size: 12px;
+    }
+
+    .fourth-education-text {
+        font-size: 12px;
+    }
+
+    .sixth-education-text {
+        font-size: 12px;
+    }
+
+    .good-choice {
+        height: 100vh;
+    }
+
+    .header-good-choice-one {
+        font-size: 32px;
+    }
+
+    .good-choice-text-one {
+        font-size: 16px;
+    }
+
+    .header-good-choice-two {
+        font-size: 32px;
+    }
+
+    .good-choice-text-two {
+        font-size: 16px;
+    }
+
+    .header-good-choice-three {
+        font-size: 32px;
+    }
+
+    .good-choice-text-three {
+        font-size: 16px;
+    }
+
+    .header-good-choice-four {
+        font-size: 32px;
+    }
+
+    .good-choice-text-four {
+        font-size: 16px;
+    }
+
+    .header-good-choice-five {
+        font-size: 32px;
+    }
+
+    .good-choice-text-five {
+        font-size: 16px;
+    }
+
+    .footer-apps {
+        height: 3vh;
+    }
+
+    .instagram-logo {
+        height: 3vh;
+    }
+
+    .whatsapp-logo {
+        height: 3vh;
+    }
+
+    .telegram-logo {
+        height: 3vh;
+    }
+}
+
+@media screen and (max-width: 845px){
+    .header-frontend {
+        font-size: 36px;
+    }
+
+    .good-choice {
+        height: 110vh;
+    }
+}
+
+@media screen and (max-width: 795px){
+    .main-header {
+        padding-left: 10%;
+    }
+
+    .main-content {
+        display: block;
+        height: 80vh;
+    }
+
+    .main-content-one {
+        width: 100%;
+        height: 80vh;
+    }
+
+    .header-frontend {
+        font-size: 64px;
+        padding-top: 10%;
+        padding-left: 10%;
+    }
+
+    .main-content-text {
+        font-size: 24px;
+        padding-top: 10%;
+        padding-left: 10%;
+    }
+
+    .button {
+        width: 40%;
+        height: 12vh;
+        line-height: 12vh;
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+
+    .button-text {
+        font-size: 24px;
+    }
+
+    .main-content-two {
+        display: none;
+        width: 100%;
+    }
+
+    .education {
+        height: 440vh;
+    }
+
+    .header-education {
+        font-size: 48px;
+        padding-top: 10%;
+        padding-left: 10%;
+    }
+
+    .education-blocks {
+        display: block;
+        width: 80%;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .education-one {
+        width: 100%;
+        height: 130vh;
+        margin-left: 0;
+    }
+
+    .first-education {
+        height: 52vh;
+    }
+
+    .second-education {
+        height: 78vh;
+    }
+
+    .second-education-header {
+        font-size: 64px;
+        padding-top: 10%;
+    }
+
+    .second-education-text {
+        font-size: 30px;
+    }
+
+    .education-two {
+        width: 100%;
+        height: 130vh;
+        margin-top: 10%;
+        margin-left: 0;
+    }
+
+    .third-education {
+        height: 52vh;
+    }
+
+    .fourth-education {
+        height: 78vh;
+    }
+
+    .fourth-education-header {
+        font-size: 64px;
+        padding-top: 10%;
+    }
+
+    .fourth-education-text {
+        font-size: 30px;
+    }
+
+    .education-three {
+        width: 100%;
+        height: 130vh;
+        margin-top: 10%;
+        margin-left: 0;
+    }
+
+    .fifth-education {
+        height: 52vh;
+    }
+
+    .sixth-education {
+        height: 78vh;
+    }
+
+    .sixth-education-header {
+        font-size: 64px;
+        padding-top: 10%;
+    }
+
+    .sixth-education-text {
+        font-size: 30px;
+    }
+
+    .good-choice {
+        height: 240vh;
+    }
+
+    .header-good-choice {
+        font-size: 48px;
+        padding-top: 10%;
+        padding-left: 10%;
+    }
+
+    .header-good-choice-one {
+        font-size: 36px;
+        padding-top: 10%;
+        padding-left: 10%;
+    }
+
+    .good-choice-text-one {
+        font-size: 24px;
+        padding-top: 8%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .header-good-choice-two {
+        font-size: 36px;
+        padding-top: 8%;
+        padding-left: 10%;
+    }
+
+    .good-choice-text-two {
+        font-size: 24px;
+        padding-top: 8%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .header-good-choice-three {
+        font-size: 36px;
+        padding-top: 8%;
+        padding-left: 10%;
+    }
+
+    .good-choice-text-three {
+        font-size: 24px;
+        padding-top: 8%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .header-good-choice-four {
+        font-size: 36px;
+        padding-top: 8%;
+        padding-left: 10%;
+    }
+
+    .good-choice-text-four {
+        font-size: 24px;
+        padding-top: 8%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .header-good-choice-five {
+        font-size: 36px;
+        padding-top: 8%;
+        padding-left: 10%;
+    }
+
+    .good-choice-text-five {
+        font-size: 24px;
+        padding-top: 8%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .footer {
+        height: 80vh;
+    }
+
+    .footer-one {
+        width: 100%;
+    }
+
+    .footer-apps {
+        margin-top: 5%;
+    }
+
+    .gray-number {
+        color: #FFFFFF;
+    }
+
+    .footer-two {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .main-content-text {
+        font-size: 20px;
+    }
+
+    .education {
+        height: 610vh;
+    }
+
+    .education-one {
+        width: 100%;
+        height: 180vh;
+        margin-left: 0;
+    }
+
+    .first-education {
+        height: 72vh;
+    }
+
+    .second-education {
+        height: 108vh;
+    }
+
+    .second-education-text {
+        font-size: 24px;
+    }
+
+    .education-two {
+        width: 100%;
+        height: 180vh;
+        margin-left: 0;
+    }
+
+    .third-education {
+        height: 72vh;
+    }
+
+    .fourth-education {
+        height: 108vh;
+    }
+
+    .fourth-education-text {
+        font-size: 24px;
+    }
+
+    .education-three {
+        width: 100%;
+        height: 180vh;
+        margin-left: 0;
+    }
+
+    .fifth-education {
+        height: 72vh;
+    }
+
+    .sixth-education {
+        height: 108vh;
+    }
+
+    .sixth-education-text {
+        font-size: 24px;
+    }
+
+    .good-choice {
+        height: 320vh;
+    }
+
+    .good-choice-text-one {
+        font-size: 20px;
+    }
+
+    .good-choice-text-two {
+        font-size: 20px;
+    }
+
+    .good-choice-text-three {
+        font-size: 20px;
+    }
+
+    .good-choice-text-four {
+        font-size: 20px;
+    }
+
+    .good-choice-text-five {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .header-frontend {
+        font-size: 48px;
+    }
+
+    .header-education {
+        font-size: 36px;
+    }
+
+    .header-good-choice {
+        font-size: 36px;
+    }
+
+    .header-good-choice-one {
+        font-size: 32px;
+    }
+
+    .header-good-choice-two {
+        font-size: 32px;
+    }
+
+    .header-good-choice-three {
+        font-size: 32px;
+    }
+
+    .header-good-choice-four {
+        font-size: 32px;
+    }
+
+    .header-good-choice-five {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .main-content {
+        height: 90vh;
+    }
+
+    .button {
+        width: 35%;
+        height: 10vh;
+        line-height: 10vh;
+    }
+
+    .button-text {
+        font-size: 20px;
+    }
+
+    .education {
+        height: 540vh;
+    }
+
+    .education-one {
+        width: 100%;
+        height: 160vh;
+        margin-left: 0;
+    }
+
+    .first-education {
+        height: 64vh;
+    }
+
+    .second-education {
+        height: 96vh;
+    }
+
+    .second-education-text {
+        font-size: 22px;
+    }
+
+    .education-two {
+        width: 100%;
+        height: 160vh;
+        margin-left: 0;
+    }
+
+    .third-education {
+        height: 64vh;
+    }
+
+    .fourth-education {
+        height: 96vh;
+    }
+
+    .fourth-education-text {
+        font-size: 22px;
+    }
+
+    .education-three {
+        width: 100%;
+        height: 160vh;
+        margin-left: 0;
+    }
+
+    .fifth-education {
+        height: 64vh;
+    }
+
+    .sixth-education {
+        height: 96vh;
+    }
+
+    .sixth-education-text {
+        font-size: 22px;
+    }
+
+    .good-choice {
+        height: 280vh;
+    }
+
+    .good-choice-text-one {
+        font-size: 18px;
+    }
+
+    .good-choice-text-two {
+        font-size: 18px;
+    }
+
+    .good-choice-text-three {
+        font-size: 18px;
+    }
+
+    .good-choice-text-four {
+        font-size: 18px;
+    }
+
+    .good-choice-text-five {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 545px){
+    .main-content {
+        height: 80vh;
+    }
+
+    .education {
+        height: 475vh;
+    }
+
+    .education-one {
+        width: 100%;
+        height: 140vh;
+        margin-left: 0;
+    }
+
+    .first-education {
+        height: 56vh;
+    }
+
+    .second-education {
+        height: 84vh;
+    }
+
+    .second-education-text {
+        font-size: 20px;
+    }
+
+    .education-two {
+        width: 100%;
+        height: 140vh;
+        margin-left: 0;
+    }
+
+    .third-education {
+        height: 56vh;
+    }
+
+    .fourth-education {
+        height: 84vh;
+    }
+
+    .fourth-education-text {
+        font-size: 20px;
+    }
+
+    .education-three {
+        width: 100%;
+        height: 140vh;
+        margin-left: 0;
+    }
+
+    .fifth-education {
+        height: 56vh;
+    }
+
+    .sixth-education {
+        height: 84vh;
+    }
+
+    .sixth-education-text {
+        font-size: 20px;
+    }
+
+    .good-choice {
+        height: 220vh;
+    }
+
+    .good-choice-text-one {
+        font-size: 16px;
+    }
+
+    .good-choice-text-two {
+        font-size: 16px;
+    }
+
+    .good-choice-text-three {
+        font-size: 16px;
+    }
+
+    .good-choice-text-four {
+        font-size: 16px;
+    }
+
+    .good-choice-text-five {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 525px){
+    .header {
+        height: 10vh;
+        line-height: 10vh;
+    }
+
+    .main-header {
+        font-size: 18px;
+    }
+
+    .header-frontend {
+        font-size: 32px;
+    }
+
+    .main-content {
+        height: 45vh;
+    }
+
+    .button {
+        width: 40%;
+        height: 6vh;
+        line-height: 6vh;
+    }
+
+    .button-text {
+        font-size: 16px;
+    }
+
+    .main-content-text {
+        font-size: 16px;
+    }
+
+    .education {
+        height: 270vh;
+    }
+
+    .education-one {
+        width: 100%;
+        height: 80vh;
+        margin-left: 0;
+    }
+
+    .first-education {
+        height: 32vh;
+    }
+
+    .second-education {
+        height: 48vh;
+    }
+
+    .second-education-header {
+        font-size: 32px
+    }
+
+    .second-education-text {
+        font-size: 18px;
+    }
+
+    .education-two {
+        width: 100%;
+        height: 80vh;
+        margin-left: 0;
+    }
+
+    .third-education {
+        height: 32vh;
+    }
+
+    .fourth-education {
+        height: 48vh;
+    }
+
+    .fourth-education-header {
+        font-size: 32px;
+    }
+
+    .fourth-education-text {
+        font-size: 18px;
+    }
+
+    .education-three {
+        width: 100%;
+        height: 80vh;
+        margin-left: 0;
+    }
+
+    .fifth-education {
+        height: 32vh;
+    }
+
+    .sixth-education {
+        height: 48vh;
+    }
+
+    .sixth-education-header {
+        font-size: 32px;
+    }
+
+    .sixth-education-text {
+        font-size: 18px;
+    }
+
+    .good-choice {
+        height: 150vh;
+    }
+
+    .good-choice-text-one {
+        font-size: 14px;
+    }
+
+    .good-choice-text-two {
+        font-size: 14px;
+    }
+
+    .good-choice-text-three {
+        font-size: 14px;
+    }
+
+    .good-choice-text-four {
+        font-size: 14px;
+    }
+
+    .good-choice-text-five {
+        font-size: 14px;
+    }
+
+    .header-education {
+        font-size: 30px;
+    }
+
+    .header-good-choice {
+        font-size: 30px;
+    }
+
+    .header-good-choice-one {
+        font-size: 24px;
+    }
+
+    .header-good-choice-two {
+        font-size: 24px;
+    }
+
+    .header-good-choice-three {
+        font-size: 24px;
+    }
+
+    .header-good-choice-four {
+        font-size: 24px;
+    }
+
+    .header-good-choice-five {
+        font-size: 24px;
+    }
+
+    .footer {
+        height: 70vh;
+    }
+
+    .main-footer {
+        font-size: 18px;
+    }
+
+    .footer-apps {
+        height: 3vh;
+    }
+
+    .gray-number {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 431px){
+    .header {
+        height: 10vh;
+        line-height: 10vh;
+    }
+
+    .main-header {
+        font-size: 18px;
+    }
+
+    .header-frontend {
+        font-size: 32px;
+    }
+
+    .main-content {
+        height: 45vh;
+    }
+
+    .button {
+        width: 40%;
+        height: 6vh;
+        line-height: 6vh;
+    }
+
+    .button-text {
+        font-size: 14px;
+    }
+
+    .main-content-text {
+        font-size: 14px;
+    }
+
+    .education {
+        height: 270vh;
+    }
+
+    .education-one {
+        width: 100%;
+        height: 80vh;
+        margin-left: 0;
+    }
+
+    .first-education {
+        height: 32vh;
+    }
+
+    .second-education {
+        height: 48vh;
+    }
+
+    .second-education-header {
+        font-size: 32px
+    }
+
+    .second-education-text {
+        font-size: 16px;
+    }
+
+    .education-two {
+        width: 100%;
+        height: 80vh;
+        margin-left: 0;
+    }
+
+    .third-education {
+        height: 32vh;
+    }
+
+    .fourth-education {
+        height: 48vh;
+    }
+
+    .fourth-education-header {
+        font-size: 32px;
+    }
+
+    .fourth-education-text {
+        font-size: 16px;
+    }
+
+    .education-three {
+        width: 100%;
+        height: 80vh;
+        margin-left: 0;
+    }
+
+    .fifth-education {
+        height: 32vh;
+    }
+
+    .sixth-education {
+        height: 48vh;
+    }
+
+    .sixth-education-header {
+        font-size: 32px;
+    }
+
+    .sixth-education-text {
+        font-size: 16px;
+    }
+
+    .good-choice {
+        height: 160vh;
+    }
+
+    .good-choice-text-one {
+        font-size: 14px;
+    }
+
+    .good-choice-text-two {
+        font-size: 14px;
+    }
+
+    .good-choice-text-three {
+        font-size: 14px;
+    }
+
+    .good-choice-text-four {
+        font-size: 14px;
+    }
+
+    .good-choice-text-five {
+        font-size: 14px;
+    }
+
+    .header-education {
+        font-size: 30px;
+    }
+
+    .header-good-choice {
+        font-size: 30px;
+    }
+
+    .header-good-choice-one {
+        font-size: 24px;
+    }
+
+    .header-good-choice-two {
+        font-size: 24px;
+    }
+
+    .header-good-choice-three {
+        font-size: 24px;
+    }
+
+    .header-good-choice-four {
+        font-size: 24px;
+    }
+
+    .header-good-choice-five {
+        font-size: 24px;
+    }
+
+    .footer {
+        height: 30vh;
+    }
+
+    .main-footer {
+        font-size: 18px;
+    }
+
+    .footer-apps {
+        height: 3vh;
+    }
+
+    .gray-number {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .main-header {
+        font-size: 18px;
+    }
+
+    .header-frontend {
+        font-size: 30px;
+    }
+
+    .main-content {
+        height: 45vh;
+    }
+
+    .button {
+        width: 40%;
+        height: 6vh;
+        line-height: 6vh;
+    }
+
+    .button-text {
+        font-size: 12px;
+    }
+
+    .main-content-text {
+        font-size: 12px;
+    }
+
+    .education {
+        height: 270vh;
+    }
+
+    .education-one {
+        width: 100%;
+        height: 80vh;
+        margin-left: 0;
+    }
+
+    .first-education {
+        height: 32vh;
+    }
+
+    .second-education {
+        height: 48vh;
+    }
+
+    .second-education-header {
+        font-size: 32px
+    }
+
+    .second-education-text {
+        font-size: 14px;
+    }
+
+    .education-two {
+        width: 100%;
+        height: 80vh;
+        margin-left: 0;
+    }
+
+    .third-education {
+        height: 32vh;
+    }
+
+    .fourth-education {
+        height: 48vh;
+    }
+
+    .fourth-education-header {
+        font-size: 32px;
+    }
+
+    .fourth-education-text {
+        font-size: 14px;
+    }
+
+    .education-three {
+        width: 100%;
+        height: 80vh;
+        margin-left: 0;
+    }
+
+    .fifth-education {
+        height: 32vh;
+    }
+
+    .sixth-education {
+        height: 48vh;
+    }
+
+    .sixth-education-header {
+        font-size: 32px;
+    }
+
+    .sixth-education-text {
+        font-size: 14px;
+    }
+
+    .good-choice {
+        height: 160vh;
+    }
+
+    .good-choice-text-one {
+        font-size: 12px;
+    }
+
+    .good-choice-text-two {
+        font-size: 12px;
+    }
+
+    .good-choice-text-three {
+        font-size: 12px;
+    }
+
+    .good-choice-text-four {
+        font-size: 12px;
+    }
+
+    .good-choice-text-five {
+        font-size: 12px;
+    }
+
+    .header-education {
+        font-size: 24px;
+    }
+
+    .header-good-choice {
+        font-size: 24px;
+    }
+
+    .header-good-choice-one {
+        font-size: 20px;
+    }
+
+    .header-good-choice-two {
+        font-size: 20px;
+    }
+
+    .header-good-choice-three {
+        font-size: 20px;
+    }
+
+    .header-good-choice-four {
+        font-size: 20px;
+    }
+
+    .header-good-choice-five {
+        font-size: 20px;
+    }
+
+    .footer {
+        height: 40vh;
+    }
+
+    .main-footer {
+        font-size: 20px;
+    }
+
+    .gray-number {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 391px){
+    .main-header {
+        font-size: 18px;
+    }
+
+    .header-frontend {
+        font-size: 30px;
+    }
+
+    .main-content {
+        height: 45vh;
+    }
+
+    .button {
+        width: 40%;
+        height: 6vh;
+        line-height: 6vh;
+    }
+
+    .button-text {
+        font-size: 12px;
+    }
+
+    .main-content-text {
+        font-size: 12px;
+    }
+
+    .education {
+        height: 270vh;
+    }
+
+    .education-one {
+        width: 100%;
+        height: 80vh;
+        margin-left: 0;
+    }
+
+    .first-education {
+        height: 32vh;
+    }
+
+    .second-education {
+        height: 48vh;
+    }
+
+    .second-education-header {
+        font-size: 32px
+    }
+
+    .second-education-text {
+        font-size: 14px;
+    }
+
+    .education-two {
+        width: 100%;
+        height: 80vh;
+        margin-left: 0;
+    }
+
+    .third-education {
+        height: 32vh;
+    }
+
+    .fourth-education {
+        height: 48vh;
+    }
+
+    .fourth-education-header {
+        font-size: 32px;
+    }
+
+    .fourth-education-text {
+        font-size: 14px;
+    }
+
+    .education-three {
+        width: 100%;
+        height: 80vh;
+        margin-left: 0;
+    }
+
+    .fifth-education {
+        height: 32vh;
+    }
+
+    .sixth-education {
+        height: 48vh;
+    }
+
+    .sixth-education-header {
+        font-size: 32px;
+    }
+
+    .sixth-education-text {
+        font-size: 14px;
+    }
+
+    .good-choice {
+        height: 140vh;
+    }
+
+    .good-choice-text-one {
+        font-size: 12px;
+    }
+
+    .good-choice-text-two {
+        font-size: 12px;
+    }
+
+    .good-choice-text-three {
+        font-size: 12px;
+    }
+
+    .good-choice-text-four {
+        font-size: 12px;
+    }
+
+    .good-choice-text-five {
+        font-size: 12px;
+    }
+
+    .header-education {
+        font-size: 24px;
+    }
+
+    .header-good-choice {
+        font-size: 24px;
+    }
+
+    .header-good-choice-one {
+        font-size: 20px;
+    }
+
+    .header-good-choice-two {
+        font-size: 20px;
+    }
+
+    .header-good-choice-three {
+        font-size: 20px;
+    }
+
+    .header-good-choice-four {
+        font-size: 20px;
+    }
+
+    .header-good-choice-five {
+        font-size: 20px;
+    }
+
+    .footer {
+        height: 40vh;
+    }
+
+    .main-footer {
+        font-size: 20px;
+    }
+
+    .gray-number {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 376px){
+    .main-header {
+        font-size: 18px;
+    }
+
+    .header-frontend {
+        font-size: 30px;
+    }
+
+    .main-content {
+        height: 50vh;
+    }
+
+    .button {
+        width: 40%;
+        height: 6vh;
+        line-height: 6vh;
+    }
+
+    .button-text {
+        font-size: 12px;
+    }
+
+    .main-content-text {
+        font-size: 12px;
+    }
+
+    .education {
+        height: 270vh;
+    }
+
+    .education-one {
+        width: 100%;
+        height: 80vh;
+        margin-left: 0;
+    }
+
+    .first-education {
+        height: 32vh;
+    }
+
+    .second-education {
+        height: 48vh;
+    }
+
+    .second-education-header {
+        font-size: 32px
+    }
+
+    .second-education-text {
+        font-size: 14px;
+    }
+
+    .education-two {
+        width: 100%;
+        height: 80vh;
+        margin-left: 0;
+    }
+
+    .third-education {
+        height: 32vh;
+    }
+
+    .fourth-education {
+        height: 48vh;
+    }
+
+    .fourth-education-header {
+        font-size: 32px;
+    }
+
+    .fourth-education-text {
+        font-size: 14px;
+    }
+
+    .education-three {
+        width: 100%;
+        height: 80vh;
+        margin-left: 0;
+    }
+
+    .fifth-education {
+        height: 32vh;
+    }
+
+    .sixth-education {
+        height: 48vh;
+    }
+
+    .sixth-education-header {
+        font-size: 32px;
+    }
+
+    .sixth-education-text {
+        font-size: 14px;
+    }
+
+    .good-choice {
+        height: 180vh;
+    }
+
+    .good-choice-text-one {
+        font-size: 12px;
+    }
+
+    .good-choice-text-two {
+        font-size: 12px;
+    }
+
+    .good-choice-text-three {
+        font-size: 12px;
+    }
+
+    .good-choice-text-four {
+        font-size: 12px;
+    }
+
+    .good-choice-text-five {
+        font-size: 12px;
+    }
+
+    .header-education {
+        font-size: 24px;
+    }
+
+    .header-good-choice {
+        font-size: 24px;
+    }
+
+    .header-good-choice-one {
+        font-size: 20px;
+    }
+
+    .header-good-choice-two {
+        font-size: 20px;
+    }
+
+    .header-good-choice-three {
+        font-size: 20px;
+    }
+
+    .header-good-choice-four {
+        font-size: 20px;
+    }
+
+    .header-good-choice-five {
+        font-size: 20px;
+    }
+
+    .footer {
+        height: 40vh;
+    }
+
+    .main-footer {
+        font-size: 20px;
+    }
+
+    .gray-number {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 355px){
+    .main-header {
+        font-size: 15px;
+    }
+
+    .header-frontend {
+        font-size: 24px;
+    }
+
+    .main-content {
+        height: 45vh;
+    }
+
+    .button {
+        width: 40%;
+        height: 6vh;
+        line-height: 6vh;
+    }
+
+    .button-text {
+        font-size: 10px;
+    }
+
+    .main-content-text {
+        font-size: 10px;
+    }
+
+    .education {
+        height: 275vh;
+    }
+
+    .education-one {
+        width: 100%;
+        height: 80vh;
+        margin-left: 0;
+    }
+
+    .first-education {
+        height: 32vh;
+    }
+
+    .second-education {
+        height: 48vh;
+    }
+
+    .second-education-header {
+        font-size: 32px
+    }
+
+    .second-education-text {
+        font-size: 12px;
+    }
+
+    .education-two {
+        width: 100%;
+        height: 80vh;
+        margin-left: 0;
+    }
+
+    .third-education {
+        height: 32vh;
+    }
+
+    .fourth-education {
+        height: 48vh;
+    }
+
+    .fourth-education-header {
+        font-size: 32px;
+    }
+
+    .fourth-education-text {
+        font-size: 12px;
+    }
+
+    .education-three {
+        width: 100%;
+        height: 80vh;
+        margin-left: 0;
+    }
+
+    .fifth-education {
+        height: 32vh;
+    }
+
+    .sixth-education {
+        height: 48vh;
+    }
+
+    .sixth-education-header {
+        font-size: 32px;
+    }
+
+    .sixth-education-text {
+        font-size: 12px;
+    }
+
+    .good-choice {
+        height: 180vh;
+    }
+
+    .good-choice-text-one {
+        font-size: 10px;
+    }
+
+    .good-choice-text-two {
+        font-size: 10px;
+    }
+
+    .good-choice-text-three {
+        font-size: 10px;
+    }
+
+    .good-choice-text-four {
+        font-size: 10px;
+    }
+
+    .good-choice-text-five {
+        font-size: 10px;
+    }
+
+    .header-education {
+        font-size: 24px;
+    }
+
+    .header-good-choice {
+        font-size: 24px;
+    }
+
+    .header-good-choice-one {
+        font-size: 20px;
+    }
+
+    .header-good-choice-two {
+        font-size: 20px;
+    }
+
+    .header-good-choice-three {
+        font-size: 20px;
+    }
+
+    .header-good-choice-four {
+        font-size: 20px;
+    }
+
+    .header-good-choice-five {
+        font-size: 20px;
+    }
+
+    .footer {
+        height: 40vh;
+    }
+
+    .main-footer {
+        font-size: 15px;
+    }
+
+    .gray-number {
+        font-size: 15px;
+    }
+}
